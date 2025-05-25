@@ -91,6 +91,7 @@ nav a:hover:not(.active) {
   header {
     position: static;
     background-color: #222021;
+    margin: 0;
   }
 
   .hamburger {

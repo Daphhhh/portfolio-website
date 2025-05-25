@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achievements</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="achievements.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div id="hamburger" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="achievements.html" class="active">Achievements</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <section class="achievements">
+      <div class="achievement-container">
+        <h2 class="achievement-title">My Achievements</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="gr.jpeg" />
+            <div class="overlay">
+              <h3>Graduation Day</h3>
+              <p>
+                Celebrating the moment I received my STEM degree with Highest
+                Honors. 🎓🏅 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="rg.jpg" />
+            <div class="overlay">
+              <h3>Recognition Day</h3>
+              <p>A not so formal recognition but a really great day to be recognized. 💖😊</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="j2.png" />
+            <div class="overlay">
+              <h3>First Job Interview</h3>
+              <p>My first ever job interview. Scored 100 and my Interviewer said I spoke well. I walked out smiling that hard. 😁💯</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="j1.jpg" />
+            <div class="overlay">
+              <h3>Formal Attire</h3>
+              <p>A special day where I got a glimpse of my future corporate girlie era - manifesting the real thing soon. 💼✨ </p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <img src="def.jpg" />
+            <div class="overlay">
+              <h3>Capstone Defended</h3>
+              <p>Months of hard work and late nights led to this moment — capstone finally defended, and we made it! 🎉✅</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="qz.jpg" />
+            <div class="overlay">
+              <h3>ISBVL Quiz Bee</h3>
+              <p>We aimed for fun, and ended up with 2nd place. Proud quiz bee moment for sure! 🥈🏆</p>
+            </div>
+          </div>
+
+          <div class="card">
+              <img src="org.jpg" />
+              <div class="overlay">
+                  <h3>Organization Event</h3>
+                  <p> We facilitated mini-games during the event and we met so many students and had a blast bonding with them! 😎🫶</p>
+                </div>
+              </div>
+
+          <div class="card">
+            <img src="dep.jpg" />
+            <div class="overlay">
+              <h3>Departmental Examination</h3>
+              <p>4th place out of tons of 2nd year CPE students?? Honestly, I didn’t see that coming but we’ll take it 😉📜</p>
+                </div>
+              </div>
+          <div class="card">
+              <img src="croch.jpeg" />
+              <div class="overlay">
+                  <h3>Crocheting</h3>
+                  <p>A beloved hobby of mine that I consider one my achievements as I really enjoy giving handmade stuffs. 🧶✂️</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.querySelector('header nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+  </body>
+</html>

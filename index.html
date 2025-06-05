@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo">Portfolio</a>
+
+      <div
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle navigation"
+        role="button"
+        tabindex="0"
+      >
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav id="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-img">
+        <div class="circle-border">
+          <img src="img2.png" alt="Daphne Lauren" />
+        </div>
+      </div>
+      <div class="home-content">
+        <h1>Hello I'm <span>Daphne Lauren</span></h1>
+        <h3 class="typing-text">
+          I'm a <span>Computer Engineering Student</span>
+        </h3>
+        <p>
+          I’m seeking an internship where I can share my skills in Cloud
+          Computing, Networking, Web Development, and Programming. I hope to
+          gain hands-on experience, expand my knowledge, and grow within a team
+          that values learning and collaboration.
+        </p>
+        <a href="resume2.pdf" class="btn" download>Download CV</a>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/laurendaphne.pineda" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/daphne-lauren-pineda-725a7a297/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Daphhhh"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/lunareiii/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("nav-menu");
+
+        hamburger.addEventListener("click", () => {
+          navMenu.classList.toggle("active");
+          hamburger.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

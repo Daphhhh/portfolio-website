@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="projects.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div id="hamburger" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+    </header>
+
+    <section class="projects">
+      <!-- First Project Container -->
+      <div class="project-container">
+        <h2 class="project-title">Working Banking System</h2>
+        <p class="project-description">
+          As part of our Object-Oriented Programming (OOP) course, my professor
+          grouped us and assigned a project to develop a fully functional
+          <strong>banking system</strong>. This was my first hands-on experience
+          building a complete system using OOP principles.
+        </p>
+        <p class="project-description">Our system included features like:</p>
+        <ul class="project-description">
+          <li>Account Creation and Deletion</li>
+          <li>Deposits, Withdrawals, and Fund Transfers</li>
+          <li>Check Balance, Request Loans, and Change PIN</li>
+          <li>Role-Based Access Control (Manager, Tellers, Customer)</li>
+        </ul>
+        <p class="project-description">
+          We applied core OOP concepts such as
+          <strong>encapsulation, inheritance, and polymorphism</strong>, and we
+          used MySQL as our database to store and manage data. This project
+          strengthened my understanding of system design, teamwork, and the
+          practical use of OOP in real-world applications.
+        </p>
+        <div class="image-grid">
+          <img src="1.png" />
+          <img src="2.png" />
+          <img src="4.png" />
+          <img src="3.png" />
+          <img src="5.png" />
+          <img src="6.png" />
+          <img src="7.png" />
+          <img src="8.png" />
+          <img src="9.png" />
+        </div>
+      </div>
+
+      <div class="project-container">
+        <h2 class="project-title">Working CPU Scheduling Calculator</h2>
+        <p class="project-description">
+          As part of our OS requirement, we were tasked to create a simple
+          Python application with a graphical interface that simulates four CPU
+          scheduling algorithms:
+          <strong> FCFS, SRTF, Priority, and Round Robin. </strong>Users can
+          enter process details and see the scheduling results both as average
+          times and a graphical Gantt chart.
+        </p>
+        <p class="project-description">Our system included features like:</p>
+        <ul class="project-description">
+          <li>
+            Easy-to-use Tkinter GUI for process input and algorithm selection.
+          </li>
+          <li>
+            Supports FCFS, SRTF, Priority, and Round Robin (with time quantum).
+          </li>
+          <li>Displays Average Waiting Time and Turnaround Time.</li>
+          <li>
+            Shows a clear Gantt chart with process execution timelines and idle
+            periods.
+          </li>
+          <li>Basic input validation and error handling.</li>
+        </ul>
+        <div class="image-grid2">
+          <img src="fcfs.png" />
+          <img src="sjf.png" />
+          <img src="srtf.png" />
+          <img src="prio.png" />
+          <img src="rr.png" />
+          <img src="error.png" />
+      </div>
+    </section>
+    <script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.querySelector('header nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
+  </body>
+</html>
